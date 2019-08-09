@@ -122,4 +122,4 @@ bot.on('message', (payload, chat) => {
 });
 
 //Inicia o serviço do bot
-bot.start();
+bot.start(process.env.PORT || 3000);
