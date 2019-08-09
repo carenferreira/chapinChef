@@ -1,6 +1,5 @@
 //CONECTA O BANCO DE DADOS
 
-require('dotenv').config()
 const mongoose = require('mongoose')
 mongoose.Promise = global.Promise
 

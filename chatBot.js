@@ -1,6 +1,5 @@
 // CONECTA A WATSON E OBTEM AS RESPOSTAS BASEADO NAS PERGUNTAS.
 
-require('dotenv').config() //Obtem as variáveis de ambiente do arquivo '.env'
 const AssistantV1 = require('ibm-watson/assistant/v1');
 const Recipe = require('./recipe');
 

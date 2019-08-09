@@ -1,10 +1,9 @@
 // INTEGRAÇÃO ENTRE WATSON, BANCO DE DADOS E FACEBOOK MESSENGER
 
 'use strict';
-process.env.NODE_ENV === 'production' ? null : require('dotenv').config()
+
 const BootBot = require('bootbot');
 const chatBot = require('./chatBot');
-const Recipe = require('./recipe');
 const User = require('./user');
 
 const bot = new BootBot({
